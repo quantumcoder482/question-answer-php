@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="Description" content="Pearls! Installer">
+	<meta name="author" content="MichaelDesigns">
+    <link rel="icon" href="../favicon.ico">
+
+    <title>Pearls! Guide</title>
+	
+	<!-- Bootstrap core CSS -->
+    <link href="../assets/css/bootstrap.css?v=1.01" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../assets/css/custom.css?v=1.01" rel="stylesheet">
+
+	<script src="https://use.fontawesome.com/48d68862e7.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<link href="../assets/plugins/summernote/summernote.css" rel="stylesheet">
+	<link href="../assets/plugins/tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+	<link href="../assets/plugins/typeahead/typeaheadjs.css?v=1.01" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
+	<link href="https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css" rel="stylesheet" >
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header" style="">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+		  
+		  <a class="navbar-brand" href="#me" style="font-family:Lobster, Tahoma, Arial; color:#b92b27;font-size:25px">Pearls! Guide</a>
+        </div>
+		
+		<div id="navbar" class="navbar-collapse collapse">
+		
+		<ul class="nav navbar-nav navbar-right">
+            <li class='current'><a href="#me"><i class="glyphicon glyphicon-off"></i>&nbsp;&nbsp;Quick Start</a></li>
+            <li class=''><a href="mailto:michael.zohney@gmail.com"><i class="glyphicon glyphicon-exclamation-sign"></i>&nbsp;&nbsp;Support</a></li>
+          </ul>
+		  
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class="container">		
+
+<div class="row">
+	
+	<div class="col-md-3 hidden-sm hidden-xs">
+	<div style="position:fixed">
+	<i class="glyphicon glyphicon-tasks"></i>&nbsp;&nbsp;Sections
+	<hr>
+	<ul class="feed-ul">
+		<li style=''><a href="#installation" class="col-md-12 anchor">Installation</a></li>	
+		<li style=''><a href="#admin" class="col-md-12 anchor">Admin Settings</a></li>	
+		<li style=''><a href="#register" class="col-md-12 anchor">Registration</a></li>	
+		<li style=''><a href="#posting-questions" class="col-md-12 anchor">Posting Questions</a></li>	
+		<li style=''><a href="#likes-dislikes" class="col-md-12 anchor">Likes/Dislikes & Follows</a></li>	
+		<li style=''><a href="#contact" class="col-md-12 anchor">Contact The Developer =)</a></li>	
+	</ul>
+	</div>
+	</div>
+	
+	
+	<div class="col-md-9">
+		
+		<div class= "page-header">
+			<h3>Welcome to Pearls! Quick Start Guide</h3>
+		</div>
+		
+		<div id="installation">
+			<h3>Installation</h3>
+			<p style="font-size:16px">
+				You can install the script in seconds by using our professional <b>Pearls! installer</b> found at
+				<pre>http://www.your-domain.com/pearls/install/</pre>
+				<center><img src="imgs/installer.jpg" style="width:100%"></center>
+				first, it will make sure that your server meets the required prerequisites for runnig pearls, then it will guide you through 4 simple steps and the script will be installed automatically, make sure you don't re-load the page in any step.<br>
+				after installation, you have to <b>delete (install) folder</b> to avoid any security problems
+			</p>
+		</div>
+		<hr>
+		
+		
+		<div id="admin">
+			<h3>Admin Settings</h3>
+			<p style="font-size:16px">
+				After you install the script, login through
+				<pre>http://www.your-domain.com/pearls/login/</pre>
+				<br>Then access admin dashboard through
+				<pre>http://www.your-domain.com/pearls/admin/</pre>
+				<br>There you'll find many options that gives you control over every section of the script.
+				<br><br>
+				<h4>General Settings</h4>
+				<center><img src="imgs/admin.jpg" style="width:100%"></center>
+				<ul>
+					<li><b>Site Name</b> Let's you rename the whole app for branding</li>
+					<li><b>Site description</b> Describe your app in many words, useful for SEO</li>
+					<li><b>Site Status</b> You may close the whole site and make it visible only for admins through this option</li>
+					<li><b>Closure Message</b> Your custom message that will appear to visitors and registered users if you close the site</li>
+					<li><b>URL Type</b> Choose wheather you want topics called via their <b>Slug</b> (<i>default, very useful for SEO</i>), or via their <b>ID</b></li>
+					<li><b>Publishing a question</b> Gives you the ability to make users publish question immediately or after moderation by admins</li>
+					<li><b>Publishing an answer</b> Gives you the ability to make users publish answers immediately or after moderation by admins</li>
+					<li><b>Public access without login</b> Enable it if you want unregistered visitors to see the questions and answers without need for registration, yet they will view only 1 answers for every question</li>
+					<li><b>Default registration group</b> Defines what privileges registered user will get, you can change rules and privileges through our smart privileges system that will be discussed in a moment</li>
+				</ul>
+				
+				<br>
+				<h4>Pending Approval</h4>
+				This page contains questions and answers that still not approved by admins, needles to say that it's only active if you chose to moderate questions and answers before publishing as explained eariler
+				
+				<br><br>
+				<h4>Users section</h4>
+				<center><img src="imgs/users.jpg" style="width:100%"></center>
+				You can view your registered users there, also you can edit their profiles.<br>
+				Also, through this screen, you can <b>Change User Privilege Groups</b> (to promote users to admins for example!) just click edit and change privilege group to desired level
+				
+				<br><br>
+				<h4>Privileges section</h4>
+				<center><img src="imgs/privileges.jpg" style="width:100%"></center>
+				This section gives you complete control over who can see what!<br>
+				You can edit what a registered user can see and what a guest can access .. You can also create new privilege groups and assign users to them like a limited admins or special members, you can control evey single function of the application through this engine
+				
+			</p>
+		</div>
+		<hr>
+	
+	
+	<div id="register">
+			<h3>Users Registration</h3>
+			<p style="font-size:16px">
+				<center><img src="imgs/register.jpg" style="width:100%"></center>
+				Users can register new accounts through login screen, simply press on (Register a new account)<br>
+				Every account must have a unique Email, registration script uses CAPTCHA to fight against bots and auto-submission scripts, so you must set <b>Google CAPTCHA</b> keys properly during installation.
+			</p>
+	</div>
+		<hr>
+	
+	<div id="posting-questions">
+			<h3>Posting Questions</h3>
+			<p style="font-size:16px">
+				<center><img src="imgs/search_filter.jpg" style="width:100%"></center>
+				You can post questions through typing them in search form, script automatically searches questions database and if no questions relative to the words entered you can post your questions directly by clicking (Ask!)<br>
+				Also there's a big input box in your homepage for directly asking questions to the world<br>
+				<center><img src="imgs/index.jpg" style="width:100%"></center>
+				(Slug) is the part that would appear in the URL of the question, useful for SEO.
+				<center><img src="imgs/question.jpg" style="width:100%"></center>
+				
+			</p>
+	</div>
+		<hr>
+	
+	<div id="likes-dislikes">
+			<h3>Likes/Dislikes and Follows</h3>
+			<p style="font-size:16px">
+				<center><img src="imgs/likes.jpg" style="width:100%"></center>
+				One of the coolest functions in pearls, is that users can interact with it throug like/dislike questions, answers and follow feeds/users to get notified for any new questions or answers posted.
+			</p>
+	</div>
+		<hr>
+	
+	<div id="contact">
+			<h3>Have fun using our script!</h3>
+			<p style="font-size:16px">
+				If you liked our script please rate it on Envato =)<br>
+				Also, feel free to contact me anytime at <b>michael.zohney@gmail.com</b>
+			</p>
+	</div>
+		<hr>
+	
+	
+	</div>
+	
+</div>
+	
+	<br><br><div class="master-footer">
+	<a href="http://michael-designs.com" target="_blank">Michael Designs </a>&copy; 2017
+	</div>	
+
+	
+    </div> <!-- /container -->
+	
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+<script src="../assets/plugins/typeahead/typeahead.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+		function scrollToId(aid){
+			var aid = aid.split('#')[1];
+			var aTag = $("[id='"+ aid +"']");
+			$('html,body').animate({scrollTop: eval(aTag.offset().top - 50)},'slow');
+		}
+
+		$('a.anchor').click(function(){
+			var id = $(this).attr('href');
+			scrollToId(id);	
+		});
+	</script>
+  </body>
+</html>
